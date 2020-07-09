@@ -11,12 +11,3 @@ function numberOfVowels (data) {
 console.log(numberOfVowels("orange"));
 console.log(numberOfVowels("lighthouse labs"));
 console.log(numberOfVowels("aeiou"));
-
-/*
-
-const vowels = ["a", "e", "i", "o", "u"];
-
-let test = "orange"
-console.log(test.length);
-console.log(test[0]);
-console.log(vowels.includes("o")); */

@@ -14,12 +14,3 @@ const urlEncode = function(text) {
 console.log(urlEncode("Lighthouse Labs"));
 console.log(urlEncode(" Lighthouse Labs "));
 console.log(urlEncode("blue is greener than purple for sure"));
-
-
-
-/*for (let i = 0; i <= text.length; i++) {
-  if (text[i] === " ") {
-    text[i] = "%20";
-    console.log(text[i]);
-  }
-}*/
