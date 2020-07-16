@@ -1,5 +1,13 @@
 const organizeInstructors = function(instructors) {
-  // Put your solution here
+  let organizedCourses = {};
+  for(let i = 0; i < instructors.length; i++) {
+    if (organizedCourses[instructors[i].course] !== undefined) {
+      organizedCourses[instructors[i].course].push(instructors[i].name);
+    } else {
+      organizedCourses[instructors[i].course] = []
+      organizedCourses[instructors[i].course].push(instructors[i].name);
+    }    
+  } return organizedCourses;
 };
 
 console.log(organizeInstructors([
